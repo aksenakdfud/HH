@@ -1,0 +1,138 @@
+@import "reset.css";
+
+body {
+    background-color: whitesmoke;
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  
+    font-family: 'Pretendard-Regular';
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.cover {
+    height: 25%;
+    background-color: whitesmoke;
+    text-align: center;
+
+    padding: 8px 20px;
+}
+
+.cover > .row1 {
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.cover > .row1 > .rlogo {
+    margin: 0 auto;
+    flex: 3;
+
+    position: relative;
+}
+.cover > .row1 > .rlogo > .logo {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+    transform: translate(-50%);
+    bottom: 0px;
+}
+.cover > .row1 > .rtitle {
+    flex: 1;
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: none;
+
+    position: relative;
+    
+}
+.cover > .row1 > .rtitle > h1 {
+    text-align: center;
+
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right: 0;
+    padding: 10px;
+}
+
+.cover > .row2 {
+    height: 20%;
+    position: relative;
+    
+}
+
+.cover > .row2 > .menu-wrap {
+    width: 21%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid grey;
+    border-radius: 24px
+}
+
+/*메뉴 전환*/
+.cover > .row2 > .menu-wrap > a {
+    flex: 1;
+    text-decoration: none;
+    color: grey;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+.cover > .row2 > .menu-wrap > a:visited {
+    flex: 1;
+    text-decoration: none;
+    color: grey;
+}
+.cover > .row2 > .menu-wrap > a:hover {
+    flex: 1;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: grey;
+}
+
+/*메인 페이지*/
+.page {
+    width: 40%;
+    height: 75%;
+
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    text-align: center;
+
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 24px 20px;
+    
+}
+
+.frame {
+    width: 80%;
+    height: 90%;
+
+    margin-top: 24px;
+    border: none;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
